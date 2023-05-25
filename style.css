@@ -37,7 +37,7 @@ a {
     margin-top: 50px;
     /* display: flex; */
     color: rgb(94, 190, 254);
-    font-size: 18px;
+    font-size: 24px;
 }
 
 body{
@@ -58,4 +58,41 @@ body{
     background-color: rgb(94, 190, 254);
     border-radius: 25px;
     color: WHITE;
+    z-index: 5;
+}
+
+.bp{
+    border-radius: 350px 0px 350px 200px;
+    position: absolute;
+    float: left;
+}
+
+.photob{
+    position: absolute;
+    float: left;
+    z-index: 1;
+}
+
+main{
+    width: 500px;
+    height: 650px;
+    /* background-color: orange; */
+    margin-left: 180px;
+    margin-top: 170px;
+}
+
+.dwn{
+    margin-left: 0; 
+}
+
+.hlpin{
+    color: blue;
+    font-size: 48px;
+    font-family: 'Larsseit', sans-serif;;
+}
+
+.high{
+    color: blue;
+    font-size: 24px;
+    font-family: 'Larsseit', sans-serif;
 }
