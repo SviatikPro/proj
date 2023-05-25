@@ -43,6 +43,7 @@ a {
 body{
     margin: 0;
     padding: 0;
+    background-color: #F4F9E2;
 }
 
 .nav{
@@ -95,4 +96,39 @@ main{
     color: blue;
     font-size: 24px;
     font-family: 'Larsseit', sans-serif;
+}
+
+.org{
+    background-color: #F9B640;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+}
+
+.rit{
+    margin-left: 40px;
+    border: 0;
+    background-color: transparent;
+    color: #FAB63E;
+    font-size: 16px;
+}
+
+.fon{
+    font-family: 'Larsseit', sans-serif;;
+}
+
+.wt_line{
+    z-index: 1;
+    margin-right: 0;
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.sec_pg{
+    height: 700px;
+    width: 100%;
+    background-color: #62D0DF;
 }
