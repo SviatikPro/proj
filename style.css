@@ -1,42 +1,50 @@
+/* setting main font  */
 *{
     font-family: 'Larsseit', sans-serif;
 }
 
-
+/* editing list settings for navbar element  */
 ul li {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
+/* putting nav elements on their spots  */
 .nav ul {
     display: flex;
     justify-content: center;
 }
 
+/* deleating underline on href elements  */
 a {
     text-decoration: none;
 }
 
+/* setting distance between elements in navbar */
 .nav ul li {
     margin-right: 20px;
   }
 
+/* measures of navbar list elems  */
 .weun{
     height: 35px;
     width: 70px;
     text-align: center;
 }
 
+/* centering them in the middle of their boxes  */
 .cent{
     text-align: center;
     color: blue;
 }
 
+/* underline when needed  */
 .weun:hover {
     border-bottom: 1px solid blue;
 }
 
+/* logo measures and loc  */
 .logo{
     margin-left: 150px;
     margin-top: 50px;
@@ -44,20 +52,22 @@ a {
     color: rgb(94, 190, 254);
     font-size: 24px;
 }
-
+ /* setting bgc and deleting default mg and pd  */
 body{
     margin: 0;
     padding: 0;
     background-color: #F4F9E2;
 }
 
+/* puttin in right loc elems of nav  */
 .nav{
     display: flex;
     align-items: baseline;
     justify-content: space-around;
 }
 
-.ltop{
+/* btn on right top  */
+.rtop{
     width: 150px;
     height: 50px;
     border: 0;
@@ -67,18 +77,20 @@ body{
     z-index: 5;
 }
 
+/* setts of bg pic  */
 .bp{
     border-radius: 350px 0px 350px 200px;
     position: absolute;
     float: left;
 }
 
+/* locating bg pic  */
 .photob{
-    position: absolute;
-    float: left;
+    display: flex;
+    justify-content: flex-end;
     z-index: 1;
 }
-
+ /* main text setts of the first page  */
 main{
     width: 500px;
     height: 650px;
@@ -87,10 +99,12 @@ main{
     margin-top: 170px;
 }
 
+/* locating dwn logo  */
 .dwn{
     margin-left: 0; 
 }
 
+/* setting txt in first page  */
 .hlpin{
     color: blue;
     font-size: 48px;
@@ -103,6 +117,7 @@ main{
     font-family: 'Larsseit', sans-serif;
 }
 
+/* setting button  */
 .org{
     background-color: #F9B640;
     border: 0;
@@ -112,6 +127,7 @@ main{
     color: white;
 }
 
+/* txt btn in the right side of the orange btn  */
 .rit{
     margin-left: 40px;
     border: 0;
@@ -120,10 +136,7 @@ main{
     font-size: 16px;
 }
 
-.fon{
-    font-family: 'Larsseit', sans-serif;;
-}
-
+/* white line on the right side  */
 .wt_line{
     z-index: 1;
     margin-right: 0;
@@ -132,6 +145,7 @@ main{
     background-color: #fff;
 }
 
+/* setts of second page  */
 .sec_pg{
     height: 700px;
     width: 100%;
@@ -140,28 +154,32 @@ main{
     justify-content: space-between;
 }
 
+/* settis of the txt of the second page  */
 .txt_sec_pg{
     width: 600px;
     margin-left: 180px;
     padding-top: 150px;
 }
 
+/* setts of the upper text  */
 .y{
     font-size: 36px;
     color: white;
     
 }
 
+/* setts of the lower txt  */
 .un_y{
     font-size: 24px;
     color: white;
 }
 
+/* setts ofthe smaller lower text  */
 .nt{
     font-size: 20px;
 }
 
-
+/* setts of the 3rd page */
 .thrd_page{
     width: 100%;
     height: 420px;
@@ -170,12 +188,14 @@ main{
     justify-content: space-between;
 }
 
+/* setts of the mid text on the 3rd page  */
 .txt_thrd{
     margin-top: 0;
     font-size: 24px;
     color: #22356F;
 }
 
+/* flex on the 3rd page  */
 .flx_txt_thrd{
     display: flex;
     padding-top: 150px;
@@ -184,6 +204,7 @@ main{
     
 }
 
+/* setts of the left txt of 3rd page  */
 .abt_thrd{
     color: #22356F;
     font-size: 16px;
@@ -192,26 +213,38 @@ main{
     display: flex;
 }
 
+/* the invisible div for flex */
 .blank{
     height: 100px;
     width: 100px;
 }
 
+/* bttm sentence on the 3rd page  */
 .btm_thrd{
     margin-top: 50px;
     color: #22356F80;
     font-size: 16px;
 }
 
+/* setts of the separating line between 3rd and 4rth page  */
+.white_line{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* setts of the 4th page  */
 .frth_page{
     flex-wrap: wrap;
 }
 
+/* setts of the images on this page  */
 .six_imgs{
     height: 621px;
     width: 621px;
 }
 
+/* list style setts  */
 ol li{
     list-style-type: disc ;
 }
@@ -226,7 +259,7 @@ ol li{
     margin-left: -1em;
   } */
 
-
+/* setting all the 6 images  */
 .img1{
     background-image: url('./img/6imgs/phy_health.jpg');
     background-size: cover;
@@ -263,15 +296,18 @@ ol li{
     background-repeat: no-repeat;
 }
 
+/* first and scd row of pics loacating */
 .frst_row, .secd_row{
     display: flex;
 }
 
+/* tetx in the images  */
 .images{
     font-size: 31px;
     color: white;
 }
 
+/* setting colors of the text im images  */
 .clrs1{
     color: #22356F;
 }
@@ -292,24 +328,28 @@ ol li{
     color: brown;
 }
 
+/* setts of the line on the top of the text in images  */
 .line{
     width: 340px;
     height: 100px;
     border-bottom: 1px solid grey;
 }
 
+/* locating text in the middle of the photos  */
 .six_imgs{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.fith_page{
+/* setts of the fifth page  */
+.fifth_page{
     width: 100%;
     height: 600px;
     background-color: white;
 }
 
+/* setts of six cards  */
 .pls{
     height: 300px;
     width: 621px;
@@ -317,7 +357,7 @@ ol li{
     flex-direction: column;
     align-items: center;
 }
-
+ /* setts of diff rows  */
 .fst_row{
     display: flex;
 }
@@ -325,29 +365,36 @@ ol li{
 .scd_row{
     display: flex;
 }
-
+ /* setts of the small text of the cards  */
 .blu_small{
     color: #22356F80;
     font-size: 16px;
 }
+
+ /* setts of the big text of the cards  */
 
 .blu_big{
     color: #22356F;
     font-size: 28px;
 }
 
+/* setts of the sixth page  */
 .sixth_page{
     width: 100%;
     height: 800px;
     background-color: #fff;
 }
 
+/* left part of the page  */
 .left{
     float:left;
     width:480px;
     overflow-x:auto;
     white-space: nowrap; 
 }
+
+/* right part of the page  */
+
 .right{
     float:left;
     /* width:75%; */
@@ -355,19 +402,23 @@ ol li{
     white-space: nowrap; 
 }
 
+/* setts of the middle text of the page  */
 .sixth_pg_txt_lower{
     color: #22356F;
     font-size: 36px;
 }
 
+/* setts of the logo inside the text  */
 .insd{
     color: #6CD3E1;
 }
 
+/* setts of the yellow sentence  */
 .ylw{
     color: #FAB63E;
 }
 
+/* locating and setting the text in this page  */
 .txts{
     margin-left: 106px;
     display: flex;
@@ -376,6 +427,7 @@ ol li{
     justify-content: space-between;
 }
 
+/* setts of the 7th page  */
 .sevth_page{
     width: 100%;
     height: 800px;
@@ -389,6 +441,7 @@ ol li{
     justify-content: flex-end;
 } */
 
+/* setts of the upper txt  */
 .pg7_up{
     margin-top: 0;
     padding-top: 100px;
@@ -396,21 +449,25 @@ ol li{
     margin-left: 180px;
 }
 
+/* setts of the ready sentence  */
 .top_txt{
     font-size: 64px;
     color: white; 
 }
 
+/* setts of the middle txt  */
 .mid_txt{
     font-size: 36px;
     color: white;
 }
 
+/* setts of the lower txt  */
 .low_txt{
     font-size: 16px;
     color: #62D0DF;
 }
 
+/* setts of the lower txt  */
 .lft_txt_low{
     display: flex;
     height: 500px;
@@ -420,22 +477,26 @@ ol li{
     padding-left: 180px;
 }
 
+/* overall setts of the text in the page  */
 .lft_txt{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/* setts of the 8th page  */
 .page_8th{
     background-color: #fff;
     display: flex;
     height: 380px;
 }
 
+/* flex in the mid card  */
 .flex_mid{
     padding-top: 30px;
 }
 
+/* setting paddings iin the cards  */
 .top_mg1{
     padding-top: 46px;
 }
@@ -449,10 +510,16 @@ ol li{
     margin: 0;
 }
 
+.mg_1{
+    padding-top: 30px;
+}
+
+/* setting color for mail  */
 .mail{
     color: #6CD3E1;
 }
 
+/* setts of the 3 cards  */
 .txt_3{
     display: flex;
     justify-content: space-between;
@@ -461,21 +528,21 @@ ol li{
     padding-top: 100px;
 }
 
-.mg_1{
-    padding-top: 30px;
-}
+/* setts of upper txts of the cards  */
 
 .bluee{
     color: #22356F;
     font-size: 14px;
 }
 
+/* setts of the footer  */
 footer{
     width: 100%;
     height: 100px;
     background-color: #62D0DF;
 }
 
+/* setts of the txt in 8th page  */
 .low{
     margin-top: 0;
     padding-left: 200px;
@@ -483,6 +550,7 @@ footer{
     color: white;
 }
 
+/* locs of the cards of the third page */
 .missing{
     display: flex;
 }
@@ -490,6 +558,8 @@ footer{
 .img_4{
     height: 480px;
     width: 480px;
+    font-size: 32px;
+    color: white;
 }
 
 .img4_1{
