@@ -80,15 +80,16 @@ body{
 /* setts of bg pic  */
 .bp{
     border-radius: 350px 0px 350px 200px;
-    position: absolute;
-    float: left;
+    /* position: absolute; */
+    /* float: left; */
 }
 
 /* locating bg pic  */
 .photob{
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex;
+    justify-content: flex-end; */
     z-index: 1;
+    /* margin-right: 0; */
 }
  /* main text setts of the first page  */
 main{
@@ -261,15 +262,17 @@ ol li{
 
 /* setting all the 6 images  */
 .img1{
-    background-image: url('./img/6imgs/phy_health.jpg');
+    /* background-image: url('./img/6imgs/phy_health.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: #22356F;
 }
 
 .img2{
-    background-image: url('./img/6imgs/men_health.webp');
+    /* background-image: url('./img/6imgs/men_health.webp');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: #0052C1;
 }
 
 .img3{
@@ -279,21 +282,24 @@ ol li{
 }
 
 .img4{
-    background-image: url('./img/6imgs/gymn.jpg');
+    /* background-image: url('./img/6imgs/gymn.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: #62D0DF;
 }
 
 .img5{
-    background-image: url('./img/6imgs/cross.jpg');
+    /* background-image: url('./img/6imgs/cross.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: #DEE1FF;
 }
 
 .img6{
-    background-image: url('./img/6imgs/aero.jpg');
+    /* background-image: url('./img/6imgs/aero.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: #8F00FF;
 }
 
 /* first and scd row of pics loacating */
@@ -309,23 +315,28 @@ ol li{
 
 /* setting colors of the text im images  */
 .clrs1{
-    color: #22356F;
+    /* color: #22356F; */
+    color: #ffffff;
 }
 
 .clrs2{
-    color: rgb(49, 2, 206);
+    /* color: rgb(49, 2, 206); */
+    color: #ffffff;
 }
 
 .clrs3{
-    color: rgb(0, 86, 0);
+    /* color: rgb(0, 86, 0); */
+    color: #ffffff;
 }
 
 .clrs5{
-    color: rgb(242, 255, 0);
+    /* color: rgb(242, 255, 0); */
+    color: #ffffff;
 }
 
 .clrs6{
-    color: brown;
+    /* color: brown; */
+    color: #ffffff;
 }
 
 /* setts of the line on the top of the text in images  */
@@ -554,12 +565,15 @@ footer{
 .missing{
     display: flex;
 }
-
+ /* setts of those images  */
 .img_4{
     height: 480px;
     width: 480px;
     font-size: 32px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img4_1{
@@ -582,4 +596,13 @@ footer{
     width: 300px;
     height: 100px;
     border-bottom: 1px solid grey;
+}
+
+
+/* adaptation */
+@media screen and (max-width: 900px){
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
 }
